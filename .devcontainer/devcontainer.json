@@ -5,11 +5,24 @@
     "context": ".."
   },
   "features": {
+    "ghcr.io/MiguelRodo/DevContainerFeatures/repos:3": {},
+    "ghcr.io/MiguelRodo/DevContainerFeatures/config-r:2": {
+      "debug": true,
+      "debugRenv": true
+    },
+    "ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
+      "installDevTools": false,
+      "installREnv": true,
+      "installRadian": true,
+      "version": "none",
+      "pakVersion": "auto",
+      "vscodeRSupport": "minimal",
+      "pandocVersion": "auto"
+    },
     "ghcr.io/MiguelRodo/DevContainerFeatures/renv-cache:1": {
       "debug": true,
       "debugRenv": true
     },
-    "ghcr.io/MiguelRodo/DevContainerFeatures/repos:3": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "xvfb,vim,libcurl4-openssl-dev,libsecret-1-dev,jq"
     },
@@ -20,7 +33,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "quarto.quarto"
+        "quarto.quarto",
+        "REditorSupport.r"
       ]
     }
   }
