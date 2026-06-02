@@ -1,4 +1,4 @@
 {
-  "image": "ghcr.io/satvilab/devcontainers-2024-stimgate:v1.0.2",
+  "image": "ghcr.io/satvilab/devcontainers-2024-stimgate:latest",
   "customizations": null
 }
