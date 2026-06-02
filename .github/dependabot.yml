@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 1. Automatically update GitHub Actions in workflows
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # 2. Automatically update Dev Container features and definitions
+  - package-ecosystem: "devcontainers"
+    directory: "/" # Scans .devcontainer/devcontainer.json
+    schedule:
+      interval: "weekly"
