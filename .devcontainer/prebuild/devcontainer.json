@@ -1,0 +1,11 @@
+{
+  "image": "ghcr.io/satvilab/devcontainers-bioc-3.19-faust:v1.0.1",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "REditorSupport.r"
+      ]
+    }
+  }
+}
