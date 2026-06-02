@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/satvilab/devcontainers-main:v0.1.0",
+  "image": "ghcr.io/satvilab/devcontainers-main:v0.1.1",
   "customizations": {
     "vscode": {
       "extensions": [
