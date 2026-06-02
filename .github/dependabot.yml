@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "devcontainers"
+    directory: "/" # Scans .devcontainer/devcontainer.json
+    schedule:
+      interval: "weekly"
