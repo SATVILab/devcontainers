@@ -5,7 +5,7 @@ FROM bioconductor/bioconductor_docker:RELEASE_3_20
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Copy the `.devcontainer/renv` folder to the container
-COPY .devcontainer/renv /usr/local/share/renv-cache/renv
+COPY .devcontainer/renv /usr/local/share/renv-cache/lockfiles
 
 # Set appropriate permissions
-RUN chmod -R 755 /usr/local/share/renv-cache/renv
+RUN chmod -R 755 /usr/local/share/renv-cache/lockfiles
