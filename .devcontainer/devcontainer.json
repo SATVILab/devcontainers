@@ -15,9 +15,10 @@
     "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
       "installTinyTex": false
     },
-    "ghcr.io/MiguelRodo/DevContainerFeatures/renv-cache:1.15.0": {
+    "ghcr.io/MiguelRodo/DevContainerFeatures/renv-cache:1.15.1": {
       "pkg": "ggplot2",
       "update": true
-    }
+    },
+    "ghcr.io/MiguelRodo/DevContainerFeatures/build-info:1.4.0": {}
   }
 }
