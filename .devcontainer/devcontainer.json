@@ -2,11 +2,10 @@
   "name": "BioConductor Dev Container",
   "build": {
     "dockerfile": "Dockerfile",
-    "context": "..",
-    "args": {
-      "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
-    }
+    "context": ".."
   },
+  "remoteUser": "rstudio",
+  "updateRemoteUserUID": true,
   "features": {
     "ghcr.io/MiguelRodo/DevContainerFeatures/utils:1.1.0": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
