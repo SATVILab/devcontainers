@@ -3,9 +3,3 @@ FROM bioconductor/bioconductor_docker:RELEASE_3_20
 
 # Avoid interactive prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
-
-# Copy the `.devcontainer/renv` folder to the container
-COPY .devcontainer/renv /usr/local/share/renv-cache/lockfiles
-
-# Set appropriate permissions
-RUN chmod -R 755 /usr/local/share/renv-cache/lockfiles
