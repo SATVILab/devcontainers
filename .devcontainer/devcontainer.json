@@ -1,9 +1,6 @@
 {
-  "name": "BioConductor Dev Container",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
+  "name": "satvi-2022-rodo-thesis",
+  "image": "bioconductor/bioconductor_docker:RELEASE_3_20",
   "containerUser": "rstudio",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
@@ -23,6 +20,7 @@
       "pkg": "ggplot2",
       "update": true
     },
-    "ghcr.io/MiguelRodo/DevContainerFeatures/build-info:1.4.0": {}
+    "ghcr.io/MiguelRodo/DevContainerFeatures/build-info:1.4.0": {},
+    "ghcr.io/MiguelRodo/DevContainerFeatures/mermaid:1.5.1": {}
   }
 }
