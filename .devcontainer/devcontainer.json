@@ -20,7 +20,6 @@
       "pkg": "ggplot2",
       "update": true
     },
-    "ghcr.io/MiguelRodo/DevContainerFeatures/build-info:1.4.0": {},
-    "ghcr.io/MiguelRodo/DevContainerFeatures/mermaid:1.5.1": {}
+    "ghcr.io/MiguelRodo/DevContainerFeatures/build-info:1.4.0": {}
   }
 }
