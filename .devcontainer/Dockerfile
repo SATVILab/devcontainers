@@ -9,3 +9,5 @@ COPY .devcontainer/renv /usr/local/share/renv-cache/lockfiles
 
 # Set appropriate permissions
 RUN chmod -R 755 /usr/local/share/renv-cache/lockfiles
+
+COPY .devcontainer/cli-versions.pref /etc/apt/preferences.d/cli-versions.pref
