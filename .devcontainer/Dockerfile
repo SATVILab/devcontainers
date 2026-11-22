@@ -14,3 +14,5 @@ COPY .devcontainer/renv /usr/local/share/renv-cache/renv
 
 # Set appropriate permissions
 RUN chmod -R 755 /usr/local/share/renv-cache/renv
+
+COPY .devcontainer/cli-versions.pref /etc/apt/preferences.d/cli-versions.pref
