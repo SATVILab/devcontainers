@@ -1,0 +1,9 @@
+# Pin the CLI versions installed from the verified signed APT repository.
+Package: repos
+Pin: version 2.7.2
+Pin-Priority: 1001
+
+# Fail closed if the pinned release is not available.
+Package: repos
+Pin: version *
+Pin-Priority: -1
