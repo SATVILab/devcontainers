@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/satvilab/devcontainers-bioc-3.19-faust:v1.0.1",
+  "image": "ghcr.io/satvilab/devcontainers-bioc-3.19-faust:v1.1.1",
   "customizations": {
     "vscode": {
       "extensions": [
