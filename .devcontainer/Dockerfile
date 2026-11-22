@@ -3,3 +3,5 @@ FROM bioconductor/bioconductor_docker:RELEASE_3_20
 
 # Avoid interactive prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
+
+COPY .devcontainer/cli-versions.pref /etc/apt/preferences.d/cli-versions.pref
