@@ -1,6 +1,6 @@
 {
   "name": "satvi-2022-rodo-thesis",
-  "image": "bioconductor/bioconductor_docker:RELEASE_3_20",
+  "build": { "dockerfile": "Dockerfile" },
   "containerUser": "rstudio",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
